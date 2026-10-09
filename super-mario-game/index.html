@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+
+    <title>Super Mario Game</title>
+</head>
+<body>
+    <div class="game-board">
+        <div class="score">0</div>
+        <div class="high-score">
+            HI
+            <span id="high-score">0</span>
+        </div>
+
+        <button id="reset-record">Zerar recorde</button>
+        <div class="timer">Tempo: <span id="tempo">0</span>s</div>
+        <div id="mensagem">Aquecendo...</div>
+
+        <img src="./images/clouds.png" class="clouds">
+        <img src="./images/mario-starter.gif" class="mario">
+        <img src="./images/pipe.png" class="pipe">
+    </div>
+
+    <div class="game-over">
+        <p>Game over!</p>
+        <button class="retry">Retry now</button>
+    </div>
+</body>
+</html>
